@@ -8,6 +8,11 @@ body {
   background: black;
 }
 
+.output_canvas {
+  width: 20%;
+  height: 20%;
+}
+
 #canvas1 {
   position: absolute;
   top: 50%;
