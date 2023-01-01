@@ -348,7 +348,7 @@ console.log('outside: ' + position);
   function handleEnemies(deltatime) {
     if (enemyTimer > enemyInterval + randomEnemyInterval) {
       enemies.push(new Enemy(canvas.width, canvas.height));
-      randomEnemyInterval = Math.random() * 1000 + 1000;
+      randomEnemyInterval = Math.random() * 1000 + 1500;
       enemyTimer = 0;
     }
     else {
